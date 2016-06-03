@@ -13,7 +13,6 @@ struct _GdkDisplayManager {};
 struct _GdkDragAction {};
 struct _GdkDragContext {};
 struct _GdkDragProtocol {};
-struct _GdkEvent {};
 struct _GdkEventFunc {};
 struct _GdkEventMask {};
 struct _GdkEventSequence {};
