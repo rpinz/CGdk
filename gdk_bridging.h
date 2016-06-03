@@ -66,3 +66,4 @@ struct _GdkXEvent {};
 
 #define GLIB_DISABLE_DEPRECATION_WARNINGS
 #include <gdk/gdk.h>
+#include <gdk/gdkprivate.h>
