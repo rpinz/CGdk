@@ -65,5 +65,7 @@ struct _GdkWindowWindowClass {};
 struct _GdkXEvent {};
 
 #define GLIB_DISABLE_DEPRECATION_WARNINGS
+#include <unistd.h>
+#include <termios.h>
 #include <gdk/gdk.h>
 #include <gdk/gdkprivate.h>
