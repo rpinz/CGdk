@@ -64,6 +64,13 @@ struct _GdkWindowTypeHint {};
 struct _GdkWindowWindowClass {};
 struct _GdkXEvent {};
 
+// gdk+3.22.x
+struct _GdkDevicePad {};
+struct _GdkDevicePadInterface {};
+struct _GdkDeviceTool {};
+struct _GdkDrawingContextClass {};
+struct _GdkMonitorClass {};
+
 #define GLIB_DISABLE_DEPRECATION_WARNINGS
 #include <unistd.h>
 #include <termios.h>
