@@ -66,10 +66,17 @@ struct _GdkXEvent {};
 
 // gdk+3.22.x
 struct _GdkDevicePad {};
+struct _GdkDevicePadClass {};
 struct _GdkDevicePadInterface {};
 struct _GdkDeviceTool {};
+struct _GdkDeviceToolClass {};
+struct _GdkDeviceToolInterface {};
+struct _GdkDrawingContext {};
 struct _GdkDrawingContextClass {};
+struct _GdkDrawingContextInterface {};
+struct _GdkMonitor {};
 struct _GdkMonitorClass {};
+struct _GdkMonitorInterface {};
 
 #define GLIB_DISABLE_DEPRECATION_WARNINGS
 #include <unistd.h>
